@@ -20,6 +20,7 @@
 
 title: Karl Zöller's Blog
 description: >- # this means to ignore newlines until "baseurl:"
+  Thoughts on software engineering.
   All views expressed on this site are my personal opinions and
   not necessarily those of my employer.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -31,6 +32,11 @@ github_username:  karlzoller
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id: G-VHD2TQKN0R
 
 # Exclude from processing.
 # The following items will not be processed, by default.
