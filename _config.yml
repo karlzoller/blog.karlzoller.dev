@@ -32,11 +32,8 @@ github_username:  karlzoller
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-analytics
 
-jekyll_analytics:
-  GoogleAnalytics:
-    id: G-VHD2TQKN0R
+google_analytics: G-VHD2TQKN0R
 
 # Exclude from processing.
 # The following items will not be processed, by default.
